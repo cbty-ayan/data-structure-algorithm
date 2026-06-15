@@ -3,13 +3,13 @@
 console.clear();
 
 function countDigits(num) {
-  let n = 0,
-  while (num > 0) {
+  let n = 0;
+  while(num > 0) {
     n++;
     num = Math.trunc(num / 10);
   }
   return n;
 }
 
-let result = countDigits(256);
+let result = countDigits(0);
 console.log("Number of digits in : " + result);

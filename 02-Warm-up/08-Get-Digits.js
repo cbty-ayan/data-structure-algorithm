@@ -4,7 +4,7 @@ console.clear();
 function getDigits(num) {
   let digitsList = [];
   let r;
-  while (num > 0) {
+  while(num > 0) {
     r = num % 10;
     num = Math.trunc(num / 10);
     digitsList.push(r);
